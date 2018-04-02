@@ -1,0 +1,119 @@
+.home h1{
+  color:teal;
+  margin-top: 40px;
+}
+.navbar-inverse .navbar-nav{
+  height:60px;
+}
+.navbar-inverse .navbar-nav li a:hover{
+  color: teal;
+}
+.navbar-inverse .navbar-nav .active a{
+  background:teal;
+  height:60px;
+  font-size: 18px;
+}
+.navbar-inverse .navbar-nav a{
+  font-size: 18px;
+}
+.navbar-inverse .navbar-nav .active a:hover{
+  background:teal;
+  height:60px;
+  font-weight: bold;
+  font-size:20px;
+}
+.navbar-inverse .navbar-brand{
+  color:teal;
+  font-size: 20px;
+}
+.c{
+  background: url(../first_T/img/home.jpg) no-repeat;
+  height:94%;
+}
+.c1{
+  background:rgba(3,3,3, 0.4);
+  height:100%;
+}
+.text{
+  margin-top:200px;
+  height:250px;
+  width:580px;
+  text-align: center;
+  margin-left:260px;
+}
+.home p{
+  color: white;
+  font-size:20px;
+}
+/*start section feat*/
+.feat{
+  background:rgba(3,3,3, 0.1);
+  padding:40px;
+}
+.feat h1{
+  color: teal;
+margin-bottom:50px;
+font-weight: bold;
+}
+.feat p{
+  font-size:17px;
+}
+.feat i{
+  color:teal;
+}
+/**section developers**/
+.developer h1{
+  color: teal;
+  margin-top:50px;
+  margin-bottom:40px;
+  font-weight: bold;
+}
+.developer img{
+  border-radius:49%;
+}
+/**============testimonials=============*/
+.testimonials{
+  margin-top:70px;
+  background:rgba(3,3,3, 0.1);
+  padding: 30px;
+}
+.testimonials h2{
+  margin-bottom:20px;
+}
+.testimonials .carousel-indicators
+{
+  position: static;/**hwa kan 3amelha absolute 3l4an keda makan4 3aez yt7arak*/
+  margin-left:220px;
+  margin-top:15px;
+}
+.testimonials .carousel-indicators li{
+  width:70px;
+  height:70px;
+  background-color: teal;
+  border-radius: 50%;
+      opacity:.5;
+}
+.testimonials .carousel-indicators li.active{
+      opacity:1;
+}
+.testimonials .carousel-indicators li img
+{
+  width:73px;
+  height:73px;
+  margin-left:997px;
+  margin-top:-5px;/**kaen 3la el sewar setarah aw 4fafah*/
+  border-radius: 50%;
+}
+.testimonials span{
+  color:teal;
+}
+.feed .b{
+  width:400px;
+  border-radius:0px;
+}
+.feed textarea{
+  width: 400px;
+  height:100px;
+  margin-top:-200px;
+  resize:none;
+}

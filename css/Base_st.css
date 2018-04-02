@@ -1,0 +1,645 @@
+
+body{
+  /*3l4an ylghy el sc*/
+  /*overflow: hidden;*/
+}
+
+.option-box{
+  position:fixed;
+  margin-top:10px;
+  margin-left:0px;
+  z-index:9999;/*3l4an a5leh above any thing(imge or text)**/
+}
+img{
+  margin-left:500px;
+  padding:20px;
+}
+.dropdown-menu
+{
+  background-color: black;
+  border-style: solid;/*=======7elwa======*/
+/**  width:400px;**/
+}
+/*===============start override on bootstrap======================*/
+.navbar-inverse .navbar-nav{
+  height:70px;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu
+{
+  left: 0px;
+  right:auto;
+}
+
+.dropdown-menu >li >a
+{
+  color:gray;
+}
+/*3l4an el 5at*/
+.navbar-nav > li > a
+{
+  padding-top:20;
+  padding-bottom: 20px;
+  font-size:18px;
+}
+
+/*=====================================*/
+/*bootstrap*/
+li:hover
+ ul {display: block;
+   position: absolute;
+}
+
+/*==================================هااااااااااااااام css=====================*/
+ .dropdown-menu > li > a {
+  padding:6px;
+    -webkit-transition: padding .5s ease;/*nafez el hover bas bel ra7ah ^_^ ^_^ ^_^*/
+}
+
+/*=======================================================*/
+.navbar-inverse .navbar-brand
+{
+  font-size: 30px;
+  color: white;
+}
+
+.carousel-caption
+{
+  margin-bottom:50px;
+  background:rgba(3,3,3,0.3);/*ne5ali el lon 4faf*/
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.carousel-indicators li
+{
+  background-color: black;
+  border-color:white;
+  border-width:2px;
+  width:15px;
+  height:15px;
+}
+
+/******start section about********/
+.about{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.about >.lead
+{
+color: gray;
+font-size: 25px;
+}
+.about .container > h2 {
+  font-weight: bold;
+}
+/******end section about********/
+.features{
+  background-color:rgba(3,3,3,0.1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height:350px;
+  margin-bottom:30px;
+}
+.features .feat
+{
+padding-bottom:30px;
+}
+.features .feat p
+{
+  line-height:3em;
+}
+.features .feat h4{
+  margin-top:-3px;
+}
+.features .feat span.glyphicon
+{
+  font-size:20px;
+  color:gray;
+  margin-bottom:10px;
+}
+.features .container h2
+{
+  margin-bottom:10px;
+  margin-top: 3px;
+}
+.testimonials
+{
+  padding-top: 50px;
+  margin-bottom:70px;
+}
+.testimonials h2
+{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.testimonials .lead{
+  line-height: 2em;
+}
+.glyphicon-home
+{
+  font-size:30px;
+}
+.testimonials .carousel-indicators
+{
+  position: static;/**hwa kan 3amelha absolute 3l4an keda makan4 3aez yt7arak*/
+  margin-left:220px;
+  margin-top:10px;
+}
+.testimonials .carousel-indicators li{
+  width:82px;
+  height:82px;
+  opacity:.5;
+  background: white;
+  margin:5px;
+  border-radius:50%;/*3l4an y5ali el carousel circle*/
+  overflow:hidden;/*3l4an eli el image eli 3leh tb2a 3la 2adoh*/
+  -webkit-transition: all 1.5s ease;
+}
+.testimonials .carousel-indicators li img
+{
+  width:117px;
+  height:117px;
+  margin-left:977px;
+  margin-top:-23px;/**kaen 3la el sewar setarah aw 4fafah*/
+}
+/*.testimonials .carousel-inner
+{
+  background-color: gray;
+  min-height:160px;
+}*/
+.price
+{
+  background-color:rgba(3, 3, 3, 0.1);
+  margin-top:40px;
+  margin-bottom:80px;
+}
+.price h2
+{
+  margin-bottom:40px;
+}
+.price .price-box
+{
+  background-color: white;
+  margin-bottom:30px;
+  padding: 10;
+  border-width: 1px;
+  border-color:white;
+  border-style: solid;
+}
+.price .price-box h3
+{
+  margin-top:3px;
+}
+
+.price .price-box p{
+  font-size:35px;
+  font-weight: bold;
+  color:black;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;/**3l4an ykon fe circle*/
+  line-height: 100px;
+  -webkit-transition:All 1s ease;/*5alili el hover 3leh ykon be el ra7ah*/
+}
+.price .price-box ul
+{
+  line-height:2em;
+  font-size:18px;
+}
+.our-team
+{/*no-repeat center center fixed*/
+ background:url('../pic/9.jpg') no-repeat ;
+ background-size: 100%;
+  width:100%;/*lazem ykon %%%%%%%%%%%%%%*/
+  min-height:400;
+}
+.our-team .team
+{
+  background: rgba(2,2,2,.7);
+  width:100%;
+  min-height:470px;
+  /*padding-top:30px;
+  padding-bottom:30px*/
+}
+.our-team .team h2
+{
+  margin-bottom: 60px;
+  color: white;
+}
+.our-team .team img
+{
+margin-left:1px;
+padding-top:0px;
+padding:3px;
+width:150px;
+height: 150px;
+border-radius: 50%;/*fe class bdaloh is called img-circle*/
+}
+.our-team .team h3
+{
+  color: white;
+}
+.our-team .team p
+{
+  color:white;
+}
+.our-team .team i{
+color: white;
+}
+.our-team .team i:hover{
+font-size:55px;
+}
+/*start section subscribe**/
+.subscribe
+{
+  background:rgba(3,3,3, 0.1);
+  padding-top: 40px;
+  padding-bottom:70px;
+}
+/**gwah=padding
+hwah=margin
+**/
+.subscribe h2
+{
+  color: gray;
+  margin-bottom: 20px;
+  letter-spacing: 2px;/*el space between el letters*/
+}
+.subscribe p{
+  margin-bottom:30px;
+}
+.subscribe .form-control
+{
+  border-radius:0px;/*3l4an ykon moraba3*/
+margin-right: -5px;
+width: 300px;
+}
+.subscribe button
+{
+  border-radius:0px;
+}
+/*end section subscribe**/
+/*start. section stats(Statistics)*/
+.Statistics
+{
+ background:url('../pic/k4.jpg') no-repeat;
+background-size:100%;
+}
+.Statistics .data{
+  background:rgba(2,2,2, 0.8);
+  background-size:cover;/*==background-size:100%*/
+  height:360px;
+  padding-top:10px;
+  padding-bottom:40px;
+}
+.Statistics .data h2{
+  color:white;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing:2px;
+  margin-bottom:50px;
+  text-decoration: underline;
+}
+.Statistics .data h2:hover
+{
+  text-decoration:none;
+}
+.Statistics .data .stats i{
+  color:teal;
+}
+.Statistics .data .stats p{
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+  margin-bottom:0px;
+}
+.Statistics .data .stats span{
+font-size:20px;
+color:white;
+}
+.Statistics .data .stats i:hover
+{
+  color:crimson;
+}
+/*end section stats*/
+.our-skills .progress
+{
+  border-width:1px;
+  border-color:gray;
+  border-style: solid;
+  height:30px;
+}
+
+.our-skills .progress .progress-bar
+{
+  color: black;
+  font-size:18px;
+/*  padding-top:3.5px;
+  padding-right:-5px;*/
+  line-height: 30px;/**line-height=height=>el klam fe el nos*/
+  font-weight: bold;
+  text-align:left;/***3l4an el klam ykon fe el ymen***/
+  text-indent:10px;/**3l4an ykon fe space at first*/
+}
+/*Start Section Our Skills**/
+.our-skills
+{
+padding-top:40px;
+padding-bottom: 70px;
+}
+.our-skills h2{
+  margin-bottom:40px;
+}
+.our-skills h3{
+font-weight: bold;
+color:gray;
+
+}
+/*End Section Our Skills**/
+/**Start Section Contact Us*/
+.contact-us
+{
+  background:url(../pic/1.jpg) no-repeat;
+  background-size: 100%;
+  height:400px;
+}
+.contact-us .fields{
+  background:rgba(2,2,2,.7);
+  height:400px;
+  padding-top: 30px;
+  padding:40px;
+}
+.contact-us .fields h2{
+  color:white;
+}
+.contact-us .fields p{
+  color:white;
+  margin-bottom: 40px;
+}
+.contact-us .fields textarea{
+  height: 108px;
+  background:rgba(3,3,3,.6);
+  color: white;
+}
+.contact-us .fields input{
+  background:rgba(3,3,3,.6);
+  color: white;
+}
+/*End Section Contact Us**/
+/*Start Section our-clients**/
+.our-clients{
+  background:rgba(3,3,3,.1);
+  padding: 20px;
+}
+.our-clients img{
+  width:150px;
+  height:90px;
+  /*border-width:1px;
+  border-color:black;
+  border-style: solid;*/
+  margin-left:5px;
+  margin-right:5px;
+  opacity:.3;/*3l4an el setarah**/
+}
+.our-clients img:hover{
+  opacity:1;
+}
+/*End Section our-clients**/
+/*Start Section Footer-->*/
+.footer{
+  background:rgba(3,3,3,.8);;
+  color:white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer .col li{
+  float: left;/*3l4an y7otohom gnb ba3d**/
+  width:33.3333333%;/**3l4an y3melhom three coloms**/
+  padding:5px;
+}
+.footer .social
+{
+/*  margin-left:-510px;
+  padding-left:-115px;*/
+}
+.footer .social li
+{
+float: left;
+width:30%;
+margin-right:0px;
+margin-top: 10px;
+opacity:.5;
+-webkit-transition: opacity .5s ease;
+}
+.footer .social li:hover{
+  opacity:1;
+}
+.footer img{
+  width:80px;
+  height:80px;
+  margin-left:-20px;
+}
+.footer .media img{
+  width:110px;
+  height:110px;
+  margin-top:-16px;
+  margin-bottom:-30px;
+}
+.footer .work img{
+  width:130px;
+  height:130px;
+    margin-bottom:5px;
+    margin-left:2px;
+}
+.footer .article li{
+  margin:-30px;
+}
+.footer a{
+  color:white;
+}
+.footer a:hover{
+  color:blue;
+}
+.footer .img-thumbnail{
+  background:black;/**kaen hwa el border beta3 el sarah*/
+  border-width:4px;
+  border-color:dimgray;
+  border-top-style:solid;
+}
+.footer .copy{
+  color:white;
+  background:black;
+  /*width:240px;*/
+  padding:5px;
+  font-size:15px;
+  margin-top:20px;
+}
+.os1
+{
+  background: teal;
+  color:white;
+  margin: 10px;
+  padding: 10px;
+}
+/*<!--End Section Footer-->*/
+  /*===========================End override============================*/
+  .option-box .color-option{
+  float:left;/**3l4an el gear ykon 3la gnb*/
+  background:black;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border-width:4px;
+  border-style: solid;
+  display: none;/**3l4an a5fi el box**/
+  }
+  .option-box .color-option ul li
+  {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  float: left;
+  margin-right:5px;
+  }
+  .option-box .gear-check
+  {
+    padding:5px;
+    color: white;
+  }
+  .navbar-inverse .navbar-nav > .active > a
+   {
+    height:60px;
+  }
+  .navbar-inverse .navbar-nav > .active > a:hover
+   {
+
+    font-size:20px;
+  }
+  .navbar-nav > li > a:hover
+  {
+  border-width:4px;
+  border-top-style:solid;
+  }
+  .dropdown-menu >li >a:hover
+  {
+    color:white;
+    padding-left:40px;
+  }
+  .carousel-indicators .active
+  {
+    width:17px;
+    height:17px;
+  }
+  .price .price-box:hover p/*m3naha lama a3mel hover 3la el box 5li el *p* y7salaha kza*/
+  {
+  border-width:5px;
+  border-style: solid;
+  font-size:50px;
+  }
+  .contact-us .fields textarea:hover{
+    border-width:2px;
+    border-style: solid;
+  }
+  .testimonials span
+  {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .testimonials .carousel-indicators li.active{
+    opacity:1;
+    border-width:2px;
+    border-style: solid;
+  }
+  .contact-us .fields input:hover{
+    border-width:2px;
+    border-style: solid;
+  }
+  .footer h3{
+    letter-spacing:1px;
+    margin-bottom:20px;
+  }
+/*********************************************/
+/**Start section loading*/
+.loading-overlay
+{
+  background:#222;
+  color:white;
+  position:fixed;/*3l4an ykon f awel el page w ymla el page**/
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  z-index:99999;/**3l4an ykon awel taba2a*/
+}
+
+.loading-overlay i{
+  text-align: center;
+  font-size: 100px;
+  margin-top:220px;
+  margin-left:600px;
+  color:crimson;
+}
+/**End section loading*/
+/**start section scroll to top**/
+#scroll-top
+{/****# 3l4an da is (id)*********/
+  width: 50px;
+  height: 50px;
+  color:gray;
+  background-color:black;
+text-align: center;
+position: fixed;
+bottom:20px;
+right:20px;
+z-index:99999;/*above any thing*/
+display: none;
+}
+.scroll-top:hover
+{
+  background-color:gray;
+  color: black;
+}
+/**end section scroll to top**/
+/*****************************/
+/**********start faq**********/
+.faq h2
+{
+  letter-spacing:-7px;
+font-size:80px;
+font-weight: bold;
+font-family:arial;
+}
+.faq hr{
+  width: 70%;
+}
+.fag{
+margin-right:70px;
+margin-left: 70px;
+width: 50px;
+}
+.panel-default > .panel-heading
+{
+background-color: crimson;
+}
+.faq-question .panel-heading
+{
+  padding: 20px;
+}
+/*******after the a position*******/
+.faq-question .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444
+}
+/******font-family and content=>to draw the icon***********/
+/*******after the (a that is collapsed=>closed) position*******/
+.faq-question .panel-heading a.collapsed:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+    float: right;
+    color: #999
+}
+
+/**********end faq******************/

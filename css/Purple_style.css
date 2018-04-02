@@ -1,0 +1,27 @@
+/******************************************/
+.option-box .gear-check
+,.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.dropdown-menu >li >a:hover,.dropdown-menu .divider,
+.carousel-indicators .active
+{
+background:purple;
+}
+/*******************************************************/
+.dropdown-menu
+{
+  border-top:4px purple;
+/**  width:400px;**/
+}
+/*******************************************************/
+.contact-us .fields input:hover,.price .price-box:hover p,.testimonials .carousel-indicators li.active
+,.contact-us .fields textarea:hover,.navbar-nav > li > a:hover,.option-box .color-option{
+  border-color:purple;
+}
+/*******************************************************/
+.footer span,.footer h3,.price .price-box:hover p,.footer h4,.our-skills i,.testimonials span,
+.about .container > h2 > span,.navbar-inverse .navbar-brand >span,h1
+{
+  color:purple;
+}
+/*******************************************************/

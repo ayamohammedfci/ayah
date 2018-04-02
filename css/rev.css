@@ -1,0 +1,251 @@
+
+.dropdown-menu
+{
+  background-color: black;
+  border-style: solid;/*=======7elwa======*/
+/**  width:400px;**/
+}
+/*===============start override on bootstrap======================*/
+.navbar-inverse .navbar-nav{
+  height:70px;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu
+{
+  left: 0px;
+  right:auto;
+}
+
+.dropdown-menu >li >a
+{
+  color:gray;
+}
+/*3l4an el 5at*/
+.navbar-nav > li > a
+{
+  padding-top:20;
+  padding-bottom: 20px;
+  font-size:18px;
+}
+
+/*=====================================*/
+/*bootstrap*/
+li:hover  /***************الغلطه******/
+ ul {display: block;
+   position: absolute;
+}
+
+/*==================================هااااااااااااااام css=====================*/
+ .dropdown-menu > li > a {
+  padding:6px;
+    -webkit-transition: padding .5s ease;/*nafez el hover bas bel ra7ah ^_^ ^_^ ^_^*/
+}
+
+/*=======================================================*/
+.navbar-inverse .navbar-brand
+{
+  font-size: 30px;
+  color: white;
+}
+
+.carousel-caption
+{
+  margin-bottom:50px;
+  background:rgba(3,3,3,0.3);/*ne5ali el lon 4faf*/
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.carousel-indicators li
+{
+  background-color: black;
+  border-color:white;
+  border-width:2px;
+  width:15px;
+  height:15px;
+}
+
+/******start section about********/
+
+/******end section about********/
+
+.testimonials .carousel-indicators
+{
+  position: static;/**hwa kan 3amelha absolute 3l4an keda makan4 3aez yt7arak*/
+  margin-left:220px;
+  margin-top:10px;
+}
+.testimonials .carousel-indicators li{
+  width:82px;
+  height:82px;
+  opacity:.5;
+  background: white;
+  margin:5px;
+  border-radius:50%;/*3l4an y5ali el carousel circle*/
+  overflow:hidden;/*3l4an eli el image eli 3leh tb2a 3la 2adoh*/
+  -webkit-transition: all 1.5s ease;
+}
+.testimonials .carousel-indicators li img
+{
+  width:117px;
+  height:117px;
+  margin-left:977px;
+  margin-top:-23px;/**kaen 3la el sewar setarah aw 4fafah*/
+}
+/*.testimonials .carousel-inner
+{
+  background-color: gray;
+  min-height:160px;
+}*/
+
+.price .price-box p{
+  font-size:35px;
+  font-weight: bold;
+  color:black;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;/**3l4an ykon fe circle*/
+  line-height: 100px;
+  -webkit-transition:All 1s ease;/*5alili el hover 3leh ykon be el ra7ah*/
+}
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+  /*===========================End override============================*/
+  .option-box .color-option{
+  float:left;/**3l4an el gear ykon 3la gnb*/
+  background:black;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border-width:4px;
+  border-style: solid;
+  display: none;/**3l4an a5fi el box**/
+  }
+  .option-box .color-option ul li
+  {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  float: left;
+  margin-right:5px;
+  }
+  .option-box .gear-check
+  {
+    padding:5px;
+    color: white;
+  }
+  .navbar-inverse .navbar-nav > .active > a
+   {
+    height:60px;
+  }
+  .navbar-inverse .navbar-nav > .active > a:hover
+   {
+
+    font-size:20px;
+  }
+  .navbar-nav > li > a:hover
+  {
+  border-width:4px;
+  border-top-style:solid;
+  }
+  .dropdown-menu >li >a:hover
+  {
+    color:white;
+    padding-left:40px;
+  }
+  .carousel-indicators .active
+  {
+    width:17px;
+    height:17px;
+  }
+  ////////////////////////////////////////////////////////////////////////
+
+  .testimonials .carousel-indicators li.active{
+    opacity:1;
+    border-width:2px;
+    border-style: solid;
+  }
+/*********************************************/
+/**Start section loading*/
+.loading-overlay
+{
+  background:#222;
+  color:white;
+  position:fixed;/*3l4an ykon f awel el page w ymla el page**/
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  z-index:99999;/**3l4an ykon awel taba2a*/
+}
+
+.loading-overlay i{
+  text-align: center;
+  font-size: 100px;
+  margin-top:220px;
+  margin-left:600px;
+  color:crimson;
+}
+/**End section loading*/
+/**start section scroll to top**/
+#scroll-top
+{/****# 3l4an da is (id)*********/
+  width: 50px;
+  height: 50px;
+  color:gray;
+  background-color:black;
+text-align: center;
+position: fixed;
+bottom:20px;
+right:20px;
+z-index:99999;/*above any thing*/
+display: none;
+}
+.scroll-top:hover
+{
+  background-color:gray;
+  color: black;
+}
+/**end section scroll to top**/
+/*****************************/
+/**********start faq**********/
+.faq h2
+{
+  letter-spacing:-7px;
+font-size:80px;
+font-weight: bold;
+font-family:arial;
+}
+.faq hr{
+  width: 70%;
+}
+.fag{
+margin-right:70px;
+margin-left: 70px;
+width: 50px;
+}
+.panel-default > .panel-heading
+{
+background-color: crimson;
+}
+.faq-question .panel-heading
+{
+  padding: 20px;
+}
+/*******after the a position*******/
+.faq-question .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444
+}
+/******font-family and content=>to draw the icon***********/
+/*******after the (a that is collapsed=>closed) position*******/
+.faq-question .panel-heading a.collapsed:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+    float: right;
+    color: #999
+}
+
+/**********end faq******************/

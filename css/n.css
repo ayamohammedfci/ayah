@@ -1,0 +1,178 @@
+h1{
+  color:red;
+  font-weight: bold;
+}
+.os1
+{
+  background: teal;
+  color:white;
+  margin: 10px;
+  padding: 10px;
+}
+/*===============start override on bootstrap======================*/
+.navbar-inverse .navbar-nav{
+  height:60px;
+}
+.navbar-inverse .navbar-nav > .active > a
+ {
+  background-color:crimson;
+  height:60px;
+}
+.navbar-inverse .navbar-nav > .active > a:hover
+ {
+  background-color:crimson;
+  font-size:20px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu
+{
+  left: 0px;
+  right:auto;
+}
+.dropdown-menu
+{
+  background-color: black;
+  border-top:4px black;
+  border-style: solid;/*=======7elwa======*/
+/**  width:400px;**/
+}
+.dropdown-menu >li >a
+{
+  color:gray;
+}
+/*3l4an el 5at*/
+.navbar-nav > li > a
+{
+  padding-top:20;
+  padding-bottom: 20px;
+  font-size:18px;
+}
+/*=====================================*/
+/*bootstrap*/
+li:hover
+ ul {display: block;
+   position: absolute;
+}
+ .dropdown-menu .divider {
+  background-color:crimson;
+}
+/*==================================هااااااااااااااام css=====================*/
+ .dropdown-menu > li > a {
+  padding:6px;
+    -webkit-transition: padding .5s ease;/*nafez el hover bas bel ra7ah ^_^ ^_^ ^_^*/
+}
+.dropdown-menu >li >a:hover
+{
+  background-color:crimson;
+  color:white;
+  padding-left:40px;
+}
+/*=======================================================*/
+.navbar-inverse .navbar-brand
+{
+  font-size: 30px;
+  color: white;
+}
+.navbar-inverse .navbar-brand >span
+{
+  color:crimson;
+}
+.carousel-caption
+{
+height:400;
+width:700;
+margin-bottom:150px;
+margin-left:55px;
+  background:rgba(3,3,3,0.8);/*ne5ali el lon 4faf*/
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.carousel-caption p{
+  font-size:30px;
+}
+.carousel-caption i{
+  font-size:30px;
+  color:red;
+}
+.carousel-indicators li
+{
+  background-color: black;
+  border-color:white;
+  border-width:2px;
+  width:15px;
+  height:15px;
+    margin-bottom:90px;
+}
+.carousel-indicators .active
+{
+  background:red;
+  width:17px;
+  height:17px;
+  margin-bottom:90px;
+}
+/******start section about********/
+.about{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.about >.lead
+{
+color: gray;
+font-size: 25px;
+}
+.about .container > h2 {
+  font-weight: bold;
+}
+img{
+  height:2000px;
+  width:2000;
+}
+.navbar-inverse .glyphicon
+{
+  font-size:30px;
+}
+/*===========================**/
+.back{
+background:url('../NC/pic-n/5.jpg') no-repeat fixed;
+background-size: 100%;
+}
+.NC{
+  background: rgba(3,3,3, 0.7);
+  height:700px;
+}
+.NC input{
+  border-radius: 0px;
+    background: rgba(3,3,3, 0.2);
+    color: white;
+}
+.form-control
+{
+/*margin-right: -5px;*/
+height: 45px;
+margin-right:15px;
+margin-top: 130px;
+}
+.NC input:hover{
+  border-width:1px;
+  border-color:crimson;
+  border-style: solid;
+}
+.NC button{
+  border-radius: 0px;
+  margin-top:15px;
+}
+select{
+  margin-top:100px;
+  margin-bottom:140px;
+  background:black;
+  color:gray;
+  font-weight: bold;
+}
+.opt{
+margin-top:100px;
+}
+p{
+  color: white;
+    margin-left:13px;
+    display: inline;
+    font-weight: bold;
+}
